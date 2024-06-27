@@ -1,0 +1,238 @@
+<html>
+<head>
+<title>ONLINE RESTAURANT</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="online restaurant.css">
+<style>
+
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("online food.jpg");
+  min-height: 90%;
+}
+
+</style>
+</head>
+<body style="background-color:#F58216;">
+
+<!-- Navbar (sit on top) -->
+<div class="google-top google-hide-small">
+  <div class="google-bar google-xlarge google-black google-opacity google-hover-opacity-off" id="myNavbar">
+<h1 style="background-color:orange;">
+ <center>
+ 
+    <a href="#class="google-bar-item google-button">HOME</a>
+      
+    <a href="#menu" class="google-bar-item google-button">MENU</a>
+     
+    <a href="#about" class="google-bar-item google-button">ABOUT</a>
+   
+</center>
+
+</h1>
+
+  </div>
+</div>
+
+  
+<!-- Header with image -->
+<Header class="bgimg google-display-container google-grayscale-min" id="home">
+  <div class="google-display-bottomleft google-padding"><br>
+    <span class="google-tag google-xlarge"><b>Open from 10am to 12pm</b></span>
+  </div>
+  
+</header>
+
+
+<!-- Menu Container -->
+<div class="google-container google-black google-padding-75 google-xxlarge" id="menu">
+  <div google-content">
+ <center> 
+    <h1 class="google-center google-jumbo" style="margin-bottom:64px">THE MENU</h1>
+    <div class="google-row google-center google-border google-border-dark-black">
+ </center>
+<style>
+table,th
+{
+  border:1px solid #F58216 ;
+  border-collapse:collapse;
+  padding:70px; 
+}
+</style>
+<center>
+<table style="background-color:#F58216;">
+   <tr>
+      <th>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Biryani');" id="myLink">
+        <div class="google-col s4 tablink google-padding-large google-hover-red"><h1>BIRYANI</h1></div>
+      </a>
+      </th>
+
+      <th>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Juice Shake');" id="myLink">
+        <div class="google-col s4 tablink google-padding-large google-hover-red"><h1>JUICE SHAKE</h1></div>
+      </a>
+      </th>
+
+      <th>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Breakfast Food');" id="myLink">
+        <div class="google-col s4 tablink google-padding-large google-hover-red"><h1>BREAK FAST</h1></div>
+      </a>
+      </th>
+  
+      <th>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Ice Cream');" id="myLink">
+        <div class="google-col s4 tablink google-padding-large google-hover-red"><h1>ICE CREAM</h1></div>
+      </a>
+      </th>
+
+      </div>
+    </tr>
+
+</table>
+</center>
+<center>      
+   
+    <div id="Biryani" class="google-container menu google-padding-65 google-white">
+      <h1><b>Veg Biryani</b><br><img src="//Z:\HTML\Project/bir2.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$117.50</a></span></h1>
+
+      <hr>
+   
+      <h1><b>Chicken Biryani</b><br><img src="//Z:\HTML\Project/FD 2.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$165.50</a></span></h1>
+      
+      <hr>
+      
+      <h1><b>Hyderabadi Biryani</b><br><img src="//Z:\HTML\Project/hyderabi-biryani.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$175.00</a></span></h1>
+      
+      <hr>
+
+      <h1><b>Button Biryani</b><br><img src="//Z:\HTML\Project/bir3.jpg" height="200" width="200"><br> <span class="google-right google-tag w3-dark-grey google-round"><a href="Contact.html">$156.50</a></span></h1>
+      
+      <hr>
+    </div>
+
+    <div id="Juice Shake" class="google-container menu google-padding-65 google-white">
+      <h1><b>Banana Shake Juice</b><br><img src="//Z:\HTML\Project/ju 1.jpg" height="200" width="200"><br> <span class="google-tag google-grey google-round"></span> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$37.50</a></span></h1>
+      
+      <hr>
+   
+      <h1><b>Strawberry Shake Juice</b><br><img src="//Z:\HTML\Project/ju 2.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$55.50</a></span></h1>
+      
+      <hr>
+      
+      <h1><b>Mango Shake Juice</b><br><img src="//Z:\HTML\Project/ju 3.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$30.00</a></span></h1>
+      
+      <hr>
+
+      <h1><b>Chocolate Shake Juice</b><br><img src="//Z:\HTML\Project/ju 4.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$85.50</a></span></h1>
+      
+    </div>
+
+
+    <div id="Breakfast Food" class="google-container menu google-padding-65 google-white">
+      <h1><b>Vegetable Rava Upma</b><br><img src="//Z:\HTML\Project/bf 1.jpg" height="200" width="200"><br> <span class="google-tag google-grey google-round"></span><span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$27.50</a></span></h1>
+      
+      <hr>
+   
+      <h1><b>Dosa</b><br><img src="//Z:\HTML\Project/bf 2.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$18.50</a></span></h1>
+      
+      <hr>
+      
+      <h1><b>Puri</b><br><img src="//Z:\HTML\Project/bf 3.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$29.50</a></span></h1>
+      
+      <hr>
+      
+      <h1><b>Puttu</b><br><img src="//Z:\HTML\Project/bf 4.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$20.50</a></span></h1>
+      
+    </div><br>
+
+  
+ 
+  <div id="Ice Cream" class="google-container menu google-padding-65 google-white">
+      <h1><b>Brownie with ice cream</b><br><img src="//Z:\HTML\Project/cream4.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$90.50</a></span></h1>
+
+      <hr>
+   
+      <h1><b>Strawberry ice cream</b><br><img src="//Z:\HTML\Project/cream1.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$30.10</a></span></h1>
+      
+      <hr>
+      
+      <h1><b>Mango ice cream</b><br><img src="//Z:\HTML\Project/cream2.jpg" height="200" width="200"><br> <span class="google-right google-tag google-dark-grey google-round"><a href="Contact.html">$30.00</a></span></h1>
+      
+      <hr>
+
+      <h1><b>passion fruit  icecream</b><br><img src="//Z:\HTML\Project/cream3.jpg" height="200" width="200"><br> <span class="google-right google-tag w3-dark-grey google-round"><a href="Contact.html">$37.50</a></span></h1>
+      
+      <hr>
+    </div>
+
+</center>
+ 
+<!-- About Container -->
+<div class="google-container google-padding-64 google-red google-grayscale google-xlarge" id="about">
+  <div class="google-content">
+ <center>
+    <h1 class= style="margin-bottom:64px">ABOUT</h1>
+    <p>A restaurant is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, but many restaurants ...
+‎Types of restaurant · ‎Theme restaurant  ‎Fast-food</p>
+ </center>
+    <img src="//Z:\HTML\Project/IMAGE.jpg" style="width:100%" class="google-margin-top google-margin-bottom" alt="Restaurant">
+<center>   
+  <h1><b>Opening Hours</b></h1>
+    
+    <div class="google-row">
+      <div class="google-col s6">
+        <p>MONDAY 9:00am - 11.30pm</p>
+        <p>TUESDAY - CLOSED</p>
+        <p>WEDNESDAY 9.00am - 11.30pm</p>
+        <p>THURSDAY 9:00am - 11:30pm</p>
+      </div>
+      <div class="google-col s6">
+        <p>FRIDAY 9:00am - 11:30pm</p>
+        <p>SATURDAY 9:00am - 12:00am</p>
+        <p>SUNDAY - CLOSED</p>
+</center>      
+      </div>
+    </div>
+    
+  </div>
+</div>
+<hr>
+<center><footer>
+<p>Author:Kajal,Devika,Shreyas
+</footer>
+</center><br>
+
+
+
+
+
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" google-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " google-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
+</body>
+</html>
